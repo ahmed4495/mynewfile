@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.header{ height:80px;}
+body{background-color:#f1f1f1}
+.logo{ text-align:center; color:#FF1D46; font-size:24px; font-weight:bold; font-family:"Comic Sans MS", cursive; height:80px; line-height:80px;}
+.left{ float:left; width:25%}
+.right{ float:right; width:70%}
+.le{ width:70%; float:left}
+.ri{ width:30%; float:right;}
+
+/* Clear floats after the columns */
+.ri:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear{ clear:both}
+.header h2{ color:#FF1D46}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #FF1D46;
+}
+.container{ margin:0 auto}
+.election{ padding:20px 40px 0}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ hr {
+    border: none;
+    border-top: 1px dotted black;
+  }
+  .content{ padding:20px 40px 0}
+  .conentt{ max-width:1200px; margin:0 auto;}
+  .space{ height:30px;}
+  
+  .lat li{float: left;
+padding-left: 10px;
+text-align: left;
+width: 45%; margin-top:20px;}
+.most li{ padding-bottom:20px;}
+.add{ padding:20px; margin:0 auto;}
